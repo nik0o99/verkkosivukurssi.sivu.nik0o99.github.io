@@ -1,0 +1,81 @@
+body {
+	text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-image: url("yleiso.jpg");
+}
+
+.navbar {
+	background-color: white;
+    border-color: #696969;
+    width:100%;
+    position:fixed;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+	
+}
+
+.nav-link {
+    color: black;
+    text-align: center;
+    font-family: sans; color: black;
+	font-size: 20px;	
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 28px;
+}
+
+#myBtn:hover {
+  background-color: transparent;
+}
+.footer {
+	font-weight: bold;
+	border-top: 1px solid;
+	border-top-color: black;
+} 
+
+.teksti {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.otsikko {
+	color: black;
+	font-weight: bold;
+	font-size: 35px;
+    font-family: sans; color: black;
+}
+
+.Silver {
+	color:  #C0C0C0;
+}
+.Gold {
+	color: #FFD700;
+}
+
+.Platinum {
+	color: #e5e4e2;
+}
+.lisa {
+	font-weight: bold;
+	text-decoration: underline
+}

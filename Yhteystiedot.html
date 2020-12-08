@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Starsound</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Niko Salonen">
+		<meta name="description" content="Starsound etusivu">
+		<link rel="icon" href="niklog1.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://use.fontawesome.file:///C:/Users/Niko/Desktop/verkkosivu/Soundstar/Etusivu.html#carouselExampleCaptionscom/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="Yhteystiedot.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-sm fixed-top">
+			<div class="nimi">
+				<img src="niklog1.png" alt="Sivun logo" style="width:120px;"/>
+			</div>
+			<button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbarMenu" class="collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Etusivu</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+					Palvelut
+					</a>
+					<div class="dropdown-menu navpalkki">
+						<a class="dropdown-item" href="Äänentoisto.html">Äänentoisto</a>
+						<a class="dropdown-item" href="Valotuotanto.html">Valotuotanto</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Referenssit.html">Referenssit</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Yhteystiedot.html">Yhteystiedot</a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		<br><br><br><br>
+		<h1 class="otsikko">Yhteystiedot</h1>
+		<br>
+		<div class="grid-container">
+			<div class="grid-item">
+				<div class="container">
+					<img src="mina.jpeg" alt="Profiilikuva" class="image">
+					<div class="overlay">
+					<div class="text">Niko Salonen<br>Toimitusjohtaja<br>Puh. 040 6661666</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="container">
+					<img src="bob.jpg" alt="Laurea" class="image">
+					<div class="overlay">
+					<div class="text">Bob Cat<br>Projektimestari<br>Puh.050 1116111
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="container">
+					<img src="sina.jpeg" alt="Kuopio Rock" class="image">
+					<div class="overlay">
+					<div class="text">Tiina Jez<br>Tekniikkapäällikkö<br>Puh. 040 123412345</div>
+					</div>
+				</div>
+			</div> 
+		</div>
+		
+		<div class="Aukioloajat">
+			<h1>Aukioloajat</h1>
+			<p>Ma-Pe:9-17<br>Lauantai: 10-16<br>Sunnuntai: Suljettu</p>
+		</div>
+		<div class="mmm">
+			<h1 class="osoite">Osoite</h1>
+			<p class="ma">Huovirinne 66, 01300 Vantaa</p>
+			<div class="col-md-10">
+				 <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1XLTfXxWUaBkhqowuXCGA20YUVkWYLxwZ" width="380" height="300" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<br><br>
+		<div class="Tieto">
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Lähetä viesti</legend>
+					<label for="Etunimi">Etunimi:</label>
+						<input type="text" id="Etunimi" name="etunimi" placeholder="Syötä etunimesi" required>
+						<br>
+						<br>
+					<label for="Sukunimi">Sukunimi:</label>
+						<input type="text" id="Sukunimi" name="Sukunimi" placeholder="Syötä Sukunimesi" required>
+						<br>
+						<br>
+					<label for="Sahköposti">Sähköposti:</label>
+						<input type="email" id="Sahköposti" name="Sahköposti" placeholder="Syötä Sähköpostisi" required>
+						<br>
+						<br>
+					<label for="Sahköposti">Henkilötunnus:</label>
+						<input type="text" id="Henkilotunnus" name="Henkilotunnus" placeholder="Syötä Henkilötunnus" required>
+						<br>
+						<br>
+							
+			</fieldset>
+			
+			<br>
+			
+			<fieldset>
+				<legend>Lisätiedot</legend>
+					<label for="owntextarea">Tekstialue(80x4):</label><br>
+						<textarea id="owntextarea" name="owntextarea" rows="4" cols="80"></textarea>
+						<br>
+						<br>
+						
+					<label for="Lisatietoja">Hyväksyn, että minun tietoja saa käyttää laittomiin toimiin, sekä myydä eteenpäin kolmansille osapuolille</label>
+					<input type="checkbox" id="Lisatietoja" name="lisatietoja">
+					<br>
+					<label for="Viesti">Viestin sisältö</label><br>
+					<select id="Viesti" name="Varit:">
+						<option value="Tarjouspyyntö">Tarjouspyyntö</option>
+						<option value="Tyhmä kysymys">Tyhmä kysymys</option>
+						<option value="En kommentoi">En kommentoi</option>
+					</select>
+			</fieldset>
+			<br>
+			<input type="submit" value="Lähetä">
+		</form>
+		</div>
+		<br><br><br><br>
+		
+		<div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></button>
+		<script>
+			//Get the button
+				var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+				window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+				if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+				mybutton.style.display = "block";
+				} else {
+				mybutton.style.display = "none";
+				}
+				}
+
+			// When the user clicks on the button, scroll to the top of the document
+				function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+				}
+			</script>
+		</div>
+		<div class="footer">
+		<p>Puh. 040 57888199<br>S.posti: starsound.tilaus@starsound.com<br>Osoite: Huovirinne 66, 01300 Vantaa</p>
+		</div>
+	</body>
+</html>
